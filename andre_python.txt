@@ -1,0 +1,47 @@
+Resumo de Python 
+
+- Notas/Lembretes:
+
+-> "" ou '' --  usado quando é inserido texto (tanto faz 'ou")
+-> () --  para executar os comandos digitados do Python.
+-> [] --  para referenciar colunas ou linhas de tabelas 
+-> {} --  para trazer um valor de uma tabela/resultado de função para texto
+-> # -- escrever texto e ignorar "código"
+-> texto = f"" exemplo de texto com função R$ {faturamento}"" -- f do inicio permite formatar o texto
+
+
+AULA01:
+
+- Bibliotecas do python (automatizar mouse, teclado e tela)
+
+import pyautogui:
+
+~ pyautogui.hotkey() --  para acessar um atalho
+~ pyautogui.click  --  para usar o clic do mouse (x, y) ou (x, y, clicks=2)
+~ pyautogui.click(x, y, button='left')
+~ pyautogui.click(x, y, clicks=2) ou pyautogui.doubleClick(x, y)
+~ pyautogui.write --  para escrever um texto
+~ pyautogui.copy --  para copiar
+~ pyautogui.press -- para apertar tecla x
+~ pyautogui.pause = 1  --  para 1seg. de pausa para cada linha do código
+~ pyautogui.position() --  para informar a posição do mouse na tela.
+
+
+import pyperclip:
+
+~pyperclip.copy () --  caso de erro no link por caracteres diferentes, pode copiar e colar
+
+
+import time:
+
+time.sleep(X) -- pausa o comando por X seg.
+
+
+import pandas (se nao for no jupyter tem que instalar - pandas, numpy e openpyxl
+-> import pandas as pd
+   tabela = pd.read_excel(r"caminho/no/pc")
+   display(tabela)
+
+   nome_da_funçao = tabela["nome_da_coluna"].sum()
+   display(nome_da_funçao)
+
