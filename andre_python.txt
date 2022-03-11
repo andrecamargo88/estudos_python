@@ -16,32 +16,48 @@ AULA01:
 
 import pyautogui:
 
-~ pyautogui.hotkey() --  para acessar um atalho
-~ pyautogui.click  --  para usar o clic do mouse (x, y) ou (x, y, clicks=2)
+~ pyautogui.hotkey() -->  para acessar um atalho
+~ pyautogui.click  -->  para usar o clic do mouse (x, y) ou (x, y, clicks=2)
 ~ pyautogui.click(x, y, button='left')
 ~ pyautogui.click(x, y, clicks=2) ou pyautogui.doubleClick(x, y)
-~ pyautogui.write --  para escrever um texto
-~ pyautogui.copy --  para copiar
-~ pyautogui.press -- para apertar tecla x
-~ pyautogui.pause = 1  --  para 1seg. de pausa para cada linha do código
-~ pyautogui.position() --  para informar a posição do mouse na tela.
+~ pyautogui.write --> para escrever um texto
+~ pyautogui.copy -->  para copiar
+~ pyautogui.press --> para apertar tecla x
+~ pyautogui.pause = 1  -->  para 1seg. de pausa para cada linha do código
+~ pyautogui.position() -->  para informar a posição do mouse na tela.
 
 
 import pyperclip:
 
-~pyperclip.copy () --  caso de erro no link por caracteres diferentes, pode copiar e colar
+~pyperclip.copy () -->  caso de erro no link por caracteres diferentes, pode copiar e colar
 
 
 import time:
 
-time.sleep(X) -- pausa o comando por X seg.
+time.sleep(X) --> pausa o comando por X seg.
 
 
-import pandas (se nao for no jupyter tem que instalar - pandas, numpy e openpyxl
+import pandas (se nao for no jupyter tem que instalar - pandas, numpy e openpyxl)
 -> import pandas as pd
    tabela = pd.read_excel(r"caminho/no/pc")
    display(tabela)
 
    nome_da_funçao = tabela["nome_da_coluna"].sum()
    display(nome_da_funçao)
+
+
+import selenium
+
+from selenium import webdriver.                   # - controlar navegador
+from selenium.webdriver.common.keys import Keys.  # - usar teclado
+from selenium.webdriver.common.by import By.      # - localizar itens no navegador
+
+~ navegador = webdriver.Safari()  --> para abrir o navegador no caso Safari
+~ navegador.get('https...')  --> para abrir o site desejado
+~ navegador.find_element(By.XPATH, 'código_inspecionar').sen_keys('texto')  --> escrever "texto"
+  # - XPATH para selecionar um elemento no site.     ou .click  --> para clicar
+                                                     ou .send_keys(Keys.ENTER) para apertar o ENTER.
+                                                     ou .get_attribute('data-value)
+~ navegador.quit()  --> fecha o navegador no final do processo
+
 
