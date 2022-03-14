@@ -8,7 +8,10 @@ Resumo de Python
 -> {} --  para trazer um valor de uma tabela/resultado de função para texto
 -> # -- escrever texto e ignorar "código"
 -> texto = f"" exemplo de texto com função R$ {faturamento}"" -- f do inicio permite formatar o texto
-
+-> .replace(',', '.') -- troca , por . Em valor numérico.
+-> == -- 2 sinais é comparação
+-> =  -- 1 sinal é para editar
+-> != -- diferente
 
 AULA01:
 
@@ -39,11 +42,14 @@ time.sleep(X) --> pausa o comando por X seg.
 
 import pandas (se nao for no jupyter tem que instalar - pandas, numpy e openpyxl)
 -> import pandas as pd
-   tabela = pd.read_excel(r"caminho/no/pc")
-   display(tabela)
+-> tabela = pd.read_excel(r"caminho/no/pc")
+-> display(tabela)
 
-   nome_da_funçao = tabela["nome_da_coluna"].sum()
-   display(nome_da_funçao)
+-> nome_da_funçao = tabela["nome_da_coluna"].sum()
+-> display(nome_da_funçao)
+
+-> tabela.loc[linhas,colunas] = float(valor) -- ver aula 3 no intensivao
+-> tabela.to_excel() -- para exportar tabela e salvar arquivo.
 
 
 import selenium
