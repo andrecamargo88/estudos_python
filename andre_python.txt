@@ -30,9 +30,11 @@ import pyautogui:
 ~ pyautogui.position() -->  para informar a posição do mouse na tela.
 
 
+
 import pyperclip:
 
 ~pyperclip.copy () -->  caso de erro no link por caracteres diferentes, pode copiar e colar
+
 
 
 import time:
@@ -40,7 +42,11 @@ import time:
 time.sleep(X) --> pausa o comando por X seg.
 
 
-import pandas (se nao for no jupyter tem que instalar - pandas, numpy e openpyxl)
+
+import pandas 
+
+(se nao for no jupyter tem que instalar - pandas, numpy e openpyxl)
+
 -> import pandas as pd
 -> tabela = pd.read_excel(r"caminho/no/pc")
 -> display(tabela)
@@ -50,6 +56,7 @@ import pandas (se nao for no jupyter tem que instalar - pandas, numpy e openpyxl
 
 -> tabela.loc[linhas,colunas] = float(valor) -- ver aula 3 no intensivao
 -> tabela.to_excel() -- para exportar tabela e salvar arquivo.
+
 
 
 import selenium
@@ -65,5 +72,28 @@ from selenium.webdriver.common.by import By.      # - localizar itens no navegad
                                                      ou .send_keys(Keys.ENTER) para apertar o ENTER.
                                                      ou .get_attribute('data-value)
 ~ navegador.quit()  --> fecha o navegador no final do processo
+
+
+
+import matplotlib as plt   # gráficos
+
+~ sns.heatmap(tabela.corr(), cmap='Wistia', annot=True)   #cmap é uma escala de cor / anoot é para  
+                                                           exibir o numero de correlação.
+~ 
+    
+
+import seaborn as sis   # gráfico
+
+~ 
+
+
+
+Import sklearn   (Install scikit-learn)   # inteligência artificial. --- ver aula 4 do intensivo
+
+~ from sklearn.model_selection import train_test_split. (Split entre dados de treino e dados de teste)
+
+
+
+
 
 
