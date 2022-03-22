@@ -1,13 +1,12 @@
 Curso em video - Python 
 
 -> Primeiros comandos.
-    - 
+    - () --> Funções sempre dentro de parenteses;
+    - ''ou "" --> mensagens dentro de aspas;
+    - {} --> para se referir a uma função dentro de uma funcão -- ver ex002 curso em video;
+    - = --> receba;
     -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
+    - print --> escreva , imprimir texto;
+    - input --> leia , salvar informaçao;
+    - soma --> somar numeros inteiros dentro de uma mensagem;
     -
