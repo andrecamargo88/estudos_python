@@ -23,3 +23,24 @@ Curso em video - Python
 
 OBS.: * para ver qual tipo primitivo é a resposta --> print(type(n))
       * print(n.is...) para obter informações sobre o texto (ver ex004)
+
+
+-> Operadores aritiméticos
+    - Adição (+)           --> 5  + 2 = 7
+    - Subtração (-)        --> 5  - 2 = 3
+    - Multiplicação (*)    --> 5  * 2 = 10
+    - Divisão (/)          --> 5  / 2 = 2.5 (float)
+    - Potencia (**)        --> 5 ** 2 = 25   ---> outra forma : pow(a,b)
+    - Divisão inteira (//) --> 5 // 2 = 2 
+    - Resto da divisão (%) --> 5  % 2 = 1
+
+    * Ordem de prescedencia : 1 -- ()
+                              2 -- **
+                              3 -- * ; / ; // ; %
+                              4 -- + ; -
+
+
+-> Módulos
+    - 
+
+
