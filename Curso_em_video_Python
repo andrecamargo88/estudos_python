@@ -41,6 +41,11 @@ OBS.: * para ver qual tipo primitivo é a resposta --> print(type(n))
 
 
 -> Módulos
-    - 
+    - import
+    - from BIBLIOTECA import ITEM
+    
+    - python.org --> site para verificar as bibliotecas ---> DOCS : lista por topicos 
+                                                        ---> PYPI : pacotes extras
+    
 
 

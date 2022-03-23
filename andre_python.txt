@@ -95,5 +95,3 @@ Import sklearn   (Install scikit-learn)   # inteligência artificial. --- ver au
 
 
 
-
-
