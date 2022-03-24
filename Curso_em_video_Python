@@ -4,9 +4,11 @@ Curso em video - Python
     - () --> Funções sempre dentro de parenteses;
     - ''ou "" --> mensagens dentro de aspas;
     - {} --> para se referir a uma função dentro de uma funcão -- ver ex002 curso em video;
+    - [] --> para tabelas e listas;
     - = --> receba;
-    - \n --> quebra linha
-    - end=' ' --> mantem na mesma linha a resposta
+    - \n --> quebra linha;
+    - end=' ' --> mantem na mesma linha a resposta;
+
 
 
 -> Primeiras funções:
@@ -46,6 +48,4 @@ OBS.: * para ver qual tipo primitivo é a resposta --> print(type(n))
     
     - python.org --> site para verificar as bibliotecas ---> DOCS : lista por topicos 
                                                         ---> PYPI : pacotes extras
-    
-
 
