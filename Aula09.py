@@ -33,6 +33,12 @@ print(frase.title())    # Coloca todas as primeiras letras em maiusculo.
 
 # Divisão
 frase.split()     # Separa todas as palavras e cria um novo index para cada palavra.
+print(frase.split())
+
+dividido = frase.split()
+print(dividido[0])
+print(dividido[2])
+print(dividido[2][3])
 
 # Junção
 ' '.join(frase)   # Junta as palavras unindo em uma unica indexação.
