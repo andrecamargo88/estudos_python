@@ -49,3 +49,8 @@ OBS.: * para ver qual tipo primitivo é a resposta --> print(type(n))
     - python.org --> site para verificar as bibliotecas ---> DOCS : lista por topicos 
                                                         ---> PYPI : pacotes extras
 
+-> Condições
+    - if:                      if = estrutura simple
+	Bloco True
+    - else:                    if/else = estrutura composta
+	Bloco False
