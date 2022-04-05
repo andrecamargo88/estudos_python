@@ -61,7 +61,8 @@ OBS.: * para ver qual tipo primitivo é a resposta --> print(type(n))
     - \033[0;33;44m. {style; text; back}
 
     --> style: 		    text			back
-	0 -> none            30 -> branco -> 	40
+			    null  branco ->	null
+	0 -> none            30 -> preto -> 	40
 	1 -> bold 	    31 -> vermelho -> 	41
 	4 -> underline	    32 -> verde -> 	42
 	7 -> negativo	    33 -> amarelo -> 	43
