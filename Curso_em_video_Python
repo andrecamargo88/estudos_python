@@ -49,13 +49,13 @@ OBS.: * para ver qual tipo primitivo é a resposta --> print(type(n))
     - python.org --> site para verificar as bibliotecas ---> DOCS : lista por topicos 
                                                         ---> PYPI : pacotes extras
 
--> Condições
+-> Condições (aula 10)
     - if:                      if = estrutura simple
 	Bloco True
     - else:                    if/else = estrutura composta
 	Bloco False
 
--> Cores
+-> Cores (aula 11)
     --> ANSI => escape sequence
     - \033[m
     - \033[0;33;44m. {style; text; back}
@@ -70,3 +70,12 @@ OBS.: * para ver qual tipo primitivo é a resposta --> print(type(n))
 			    35 -> roxo -> 	45
 			    36 -> ciano -> 	46
 			    37 -> cinza -> 	47
+
+
+-> Condições Aninhadas (aula 12)
+    - if carro.esquerda():
+	bloco 01
+    - elif carro.direita():  	=> elif = else + if.  --> pode ser usado mais de 1 vez.
+	bloco 02
+    - else:     ('carro.reto')
+	bloco 03
