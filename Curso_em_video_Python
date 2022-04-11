@@ -42,14 +42,14 @@ OBS.: * para ver qual tipo primitivo é a resposta --> print(type(n))
                               4 -- + ; -
 
 
--> Módulos
+-> Módulos (Aula 08 -> ex. 16 - 21)
     - import
     - from BIBLIOTECA import ITEM
     
     - python.org --> site para verificar as bibliotecas ---> DOCS : lista por topicos 
                                                         ---> PYPI : pacotes extras
 
--> Condições (aula 10)
+-> Condições (aula 10 -> ex 28 - 35)
     - if:                      if = estrutura simple
 	Bloco True
     - else:                    if/else = estrutura composta
@@ -72,7 +72,7 @@ OBS.: * para ver qual tipo primitivo é a resposta --> print(type(n))
 			    37 -> cinza -> 	47
 
 
--> Condições Aninhadas (aula 12)
+-> Condições Aninhadas (aula 12 -> ex. 36 - 45)
     - if carro.esquerda():
 	bloco 01
     - elif carro.direita():  	=> elif = else + if.  --> pode ser usado mais de 1 vez.
