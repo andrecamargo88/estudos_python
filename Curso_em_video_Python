@@ -9,6 +9,10 @@ Curso em video - Python
     - \n --> quebra linha;
     - end=' ' --> mantem na mesma linha a resposta;
 
+-> Formatação de string:
+    - {:.2f} --> define numero decimal após a virgula
+    - {:ˆ} --> Centraliza Texto na string
+    - {:=ˆ40} --> Centraliza Texto na string com '=' e em 40 espaços.
 
 
 -> Primeiras funções:
