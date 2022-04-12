@@ -6,13 +6,15 @@ Curso em video - Python
     - {} --> para se referir a uma função dentro de uma funcão -- ver ex002 curso em video;
     - [] --> para tabelas e listas;
     - = --> receba;
-    - \n --> quebra linha;
-    - end=' ' --> mantem na mesma linha a resposta;
+
 
 -> Formatação de string:
     - {:.2f} --> define numero decimal após a virgula
     - {:ˆ} --> Centraliza Texto na string
     - {:=ˆ40} --> Centraliza Texto na string com '=' e em 40 espaços.
+    - \n --> quebra linha;
+    - end=' ' --> mantem na mesma linha a resposta;
+    - end=''--> para editar o final de uma string (ver ex042)
 
 
 -> Primeiras funções:
