@@ -48,20 +48,26 @@ OBS.: * para ver qual tipo primitivo é a resposta --> print(type(n))
                               4 -- + ; -
 
 
--> Módulos (Aula 08 -> ex. 16 - 21)
+
+-> AULA 08 - Módulos (ex. 16 - 21)
+
     - import
     - from BIBLIOTECA import ITEM
     
     - python.org --> site para verificar as bibliotecas ---> DOCS : lista por topicos 
                                                         ---> PYPI : pacotes extras
 
--> Condições (aula 10 -> ex 28 - 35)
+
+-> AULA 10 - Condições (ex 28 - 35)
+
     - if:                      if = estrutura simple
 	Bloco True
     - else:                    if/else = estrutura composta
 	Bloco False
 
--> Cores (aula 11)
+
+-> AULA 11 - Cores
+
     --> ANSI => escape sequence
     - \033[m
     - \033[0;33;44m. {style; text; back}
@@ -78,10 +84,22 @@ OBS.: * para ver qual tipo primitivo é a resposta --> print(type(n))
 			    37 -> cinza -> 	47
 
 
--> Condições Aninhadas (aula 12 -> ex. 36 - 45)
+-> AULA 12 - Condições Aninhadas (ex. 36 - 45)
+
     - if carro.esquerda():
 	bloco 01
     - elif carro.direita():  	=> elif = else + if.  --> pode ser usado mais de 1 vez.
 	bloco 02
     - else:     ('carro.reto')
 	bloco 03
+
+
+-> AULA 13 - Estrutura de Repetição (ex 46 - 56)
+
+    - for c in range(i, f+1, p)   --> i - início
+    - print(c)			--> f - final (contagem começa no zero)
+				--> p - passo
+
+
+
+
