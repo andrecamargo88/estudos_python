@@ -96,8 +96,8 @@ OBS.: * para ver qual tipo primitivo é a resposta --> print(type(n))
 
 -> AULA 13 - Estrutura de Repetição (ex 46 - 56)
 
-    - for c in range(i, f+1, p)   --> i - início
-    - print(c)			--> f - final (contagem começa no zero)
+    - for c in range(i, f+1, p):   --> i - início
+    - 	print(c)			--> f - final (contagem começa no zero)
 				--> p - passo
 
 
