@@ -102,4 +102,3 @@ OBS.: * para ver qual tipo primitivo é a resposta --> print(type(n))
 
 
 
-
