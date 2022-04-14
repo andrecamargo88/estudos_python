@@ -10,7 +10,7 @@ Curso em video - Python
 
 -> Formatação de string:
     - {:.2f} --> define numero decimal após a virgula
-    - {:ˆ} --> Centraliza Texto na string
+    - {:ˆ} --> Centraliza Texto na string  {{{ print('{:=^40}'.format(' TEXTO ')) }}}
     - {:=ˆ40} --> Centraliza Texto na string com '=' e em 40 espaços.
     - \n --> quebra linha;
     - end=' ' --> mantem na mesma linha a resposta;
