@@ -94,11 +94,14 @@ OBS.: * para ver qual tipo primitivo é a resposta --> print(type(n))
 	bloco 03
 
 
--> AULA 13 - Estrutura de Repetição (ex 46 - 56)
+-> AULA 13 - Estrutura de Repetição FOR (ex 46 - 56)
 
     - for c in range(i, f+1, p):   --> i - início
     - 	print(c)			--> f - final (contagem começa no zero)
 				--> p - passo
 
+
+
+-> AULA 14 - Estrutura de Repetição WHILE (ex 57 - 71)
 
 
