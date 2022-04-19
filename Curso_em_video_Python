@@ -103,5 +103,9 @@ OBS.: * para ver qual tipo primitivo é a resposta --> print(type(n))
 
 
 -> AULA 14 - Estrutura de Repetição WHILE (ex 57 - 71)
+    - n = 1
+    - while n != 0:
+        n = int(input('Digite um valor: '))
+    - print('FIM')
 
 
